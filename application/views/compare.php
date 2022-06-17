@@ -31,7 +31,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12">&nbsp;</div>
+                <div class="col-md-12" style="height:100px;">&nbsp;</div>
             </div>
             <div class="row">
                 <div class="col-md-2"> <img src="<?= base_url(); ?>assets/images/cmpimg.jpg" class="rounded mx-auto d-block" alt="compare image" height="320"> 
@@ -143,6 +143,9 @@
                     <button type="button" class="btn btn-danger btn-lg">COMPARE</button>
                 </div>
                 <div class="col-md-4">&nbsp;</div>
+            </div>
+            <div class="row">
+                <div class="col-md-12" style="height:10px;">&nbsp;</div>
             </div>
         </div>
     </body>
