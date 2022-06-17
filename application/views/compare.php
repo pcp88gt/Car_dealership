@@ -12,33 +12,37 @@
         <style>
             .banner-txt {
                 position: absolute;
-                bottom: 480px;
-                left: 30px;
-                color: white;
+                color: black;
+                text-align: center;
+                font-family:Arial, Helvetica, sans-serif;
+                margin-top: 126px;
+                margin-left: 22px;
+                text-transform: uppercase;
             }
         </style>
     </head>
 
     <body>
         <div class="container-fluid">
-            <!-- banner -->
+            <!-- Header -->
             <div class="row">
                 <div class="col-md-12">
-                    <img src="<?= base_url(); ?>assets/images/compimg.jpg" alt="compare image" width="100%" height="180px">
-                    <h1 class="banner-txt">Compare Spec</h1>
+                    &nbsp;
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">&nbsp;</div>
             </div>
             <div class="row">
-                <div class="col-md-2">&nbsp;</div>
+                <div class="col-md-2"> <img src="<?= base_url(); ?>assets/images/cmpimg.jpg" class="rounded mx-auto d-block" alt="compare image" height="320"> 
+                </div>
+                <div class="col-md-2"><h2 class="banner-txt">Compare<br> Spec</h2></div>
                 <div class="col-md-2">
                     <div class="card text-center">
                         <img src="<?= base_url(); ?>assets/images/cardesig.png" class="card-img-top" alt="car select">
                         <div class="card-body">
                             <!--dropdown list 1-->
-                            <div class="dropdown-center">
+                            <div class="dropdown-center d-grid">
                                 <button class="btn btn-outline-danger dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                     SELECT TYPE
                                 </button>
@@ -52,7 +56,7 @@
                                 <div class="col-md-12">&nbsp;</div>
                             </div>
                             <!--dropdown list 2-->
-                            <div class="dropdown-center">
+                            <div class="dropdown-center d-grid">
                                 <button class="btn btn-outline-danger dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                     SELECT BRAND
                                 </button>
@@ -66,7 +70,7 @@
                                 <div class="col-md-12">&nbsp;</div>
                             </div>
                             <!--dropdown list 3-->
-                            <div class="dropdown-center">
+                            <div class="dropdown-center d-grid">
                                 <button class="btn btn-outline-danger dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                     SELECT MODEL
                                 </button>
@@ -80,13 +84,12 @@
                     </div>
                 </div>
                 <div class="col-md-2">&nbsp;</div>
-                <div class="col-md-2">&nbsp;</div>
                 <div class="col-md-2">
                     <div class="card text-center">
                         <img src="<?= base_url(); ?>assets/images/cardesig.png" class="card-img-top" alt="car select">
                         <div class="card-body">
                             <!--dropdown list 1-->
-                            <div class="dropdown-center">
+                            <div class="dropdown-center d-grid">
                                 <button class="btn btn-outline-danger dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                     SELECT TYPE
                                 </button>
@@ -100,7 +103,7 @@
                                 <div class="col-md-12">&nbsp;</div>
                             </div>
                             <!--dropdown list 2-->
-                            <div class="dropdown-center">
+                            <div class="dropdown-center d-grid">
                                 <button class="btn btn-outline-danger dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                     SELECT BRAND
                                 </button>
@@ -114,7 +117,7 @@
                                 <div class="col-md-12">&nbsp;</div>
                             </div>
                             <!--dropdown list 3-->
-                            <div class="dropdown-center">
+                            <div class="dropdown-center d-grid">
                                 <button class="btn btn-outline-danger dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                     SELECT MODEL
                                 </button>
@@ -132,8 +135,11 @@
                 <div class="col-md-2">&nbsp;</div>
             </div>
             <div class="row">
-                <div class="col-md-4">&nbsp;</div>
-                <div class="col-md-4" style="text-align:center;">
+                <div class="col-md-12">&nbsp;</div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">&nbsp;</div>
+                <div class="col-md-2 d-grid" style="text-align:center;">
                     <button type="button" class="btn btn-danger btn-lg">COMPARE</button>
                 </div>
                 <div class="col-md-4">&nbsp;</div>
