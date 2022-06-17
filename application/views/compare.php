@@ -36,7 +36,7 @@
             <div class="row">
                 <div class="col-md-2"> <img src="<?= base_url(); ?>assets/images/cmpimg.jpg" class="rounded mx-auto d-block" alt="compare image" height="320"> 
                 </div>
-                <div class="col-md-2"><h2 class="banner-txt">Compare<br> Spec</h2></div>
+                <div class="col-md-2"><h2 class="banner-txt">COMPARE<br>VEHICLE</h2></div>
                 <div class="col-md-2">
                     <div class="card text-center">
                         <img src="<?= base_url(); ?>assets/images/cardesig.png" class="card-img-top" alt="car select">
