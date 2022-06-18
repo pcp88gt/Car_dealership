@@ -26,9 +26,7 @@
         <div class="container-fluid">
             <!-- Header -->
             <div class="row">
-                <div class="col-md-12">
-                    &nbsp;
-                </div>
+                <div class="col-md-12">&nbsp;</div>
             </div>
             <div class="row">
                 <div class="col-md-12" style="height:100px;">&nbsp;</div>
