@@ -10,7 +10,7 @@ jQuery( document ).ready(function( $ ) {
     }, 600, function(){
         setTimeout(function(){
             $("#preloader").css("visibility", "hidden").fadeOut();
-        }, 300);
+        }, 100);
     });
     
     $(window).scroll(function() {
