@@ -227,6 +227,88 @@
           <div class="col-md-6">
             <div class="left-image">
               <img src="assets/images/about-1-570x350.jpg" class="img-fluid" alt="">
+    <!-- Banner Ends Here -->
+
+    <div class="request-form">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h4>Request a call back right now ?</h4>
+            <span>Mauris ut dapibus velit cras interdum nisl ac urna tempor mollis.</span>
+          </div>
+          <div class="col-md-4">
+            <a href="contact.html" class="border-button">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2>Our <em>Services</em></h2>
+              <span>Once a customer always a family</span>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-item">
+              <img src="assets/images/offer-1-720x480.jpg" alt="">
+              <div class="down-content">
+                <h4>Lorem ipsum dolor sit amet</h4>
+                <div style="margin-bottom:10px;">
+                  <span>from <sup>$</sup>120 per weekend</span>
+                </div>
+                <p>Sed tincidunt dictum lobortis. Aenean tempus diam vel augue luctus dignissim. Nunc ornare leo tortor.</p>
+                <a href="offers.html" class="filled-button">Book Now</a>
+              </div>
+            </div>
+            
+            <br>
+          </div>
+          <div class="col-md-4">
+            <div class="service-item">
+              <img src="assets/images/offer-2-720x480.jpg" alt="">
+              <div class="down-content">
+                <h4>Odio libero vel autem atque consequuntur</h4>
+                <div style="margin-bottom:10px;">
+                  <span>from <sup>$</sup>120 per weekend</span>
+                </div>
+                <p>Sed tincidunt dictum lobortis. Aenean tempus diam vel augue luctus dignissim. Nunc ornare leo tortor.</p>
+                <a href="offers.html" class="filled-button">Book Now</a>
+              </div>
+            </div>
+
+            <br>
+          </div>
+          <div class="col-md-4">
+            <div class="service-item">
+              <img src="assets/images/offer-3-720x480.jpg" alt="">
+              <div class="down-content">
+                <h4>Libero eveniet sint nemo beatae</h4>
+                <div style="margin-bottom:10px;">
+                  <span>from <sup>$</sup>120 per weekend</span>
+                </div>
+                <p>Sed tincidunt dictum lobortis. Aenean tempus diam vel augue luctus dignissim. Nunc ornare leo tortor.</p>
+                <a href="offers.html" class="filled-button">Book Now</a>
+              </div>
+            </div>
+
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fun-facts">
+      <div class="container">
+        <div class="more-info-content">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="left-image">
             </div>
           </div>
           <div class="col-md-6 align-self-center">
